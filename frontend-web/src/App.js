@@ -1,11 +1,11 @@
-import { Routes, Route } from "react-router-dom";
-import colors from "./styles/colors";
+import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import ItemDetails from "./pages/ItemDetails";
 import Auth from "./pages/Auth";
 import PostItem from "./pages/PostItem";
 import Profile from "./pages/Profile";
+import colors from "./styles/colors";
 
 function App() {
   return (
